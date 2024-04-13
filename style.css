@@ -1,0 +1,103 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: rgb(2, 49, 90);
+}
+.title__logo {
+    width: 200px;
+}
+.submit {
+    margin: 20px 20px;
+    padding: 10px 20px;
+    width: 200px;
+    height: 40px;
+    border: rgb(41, 101, 153);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(41, 101, 153);
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: rgb(0, 161, 246);
+}
+.title-wrap,
+.answers__title,
+.calc__title,
+.docs__title {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    color: rgb(41, 101, 153);
+}
+.jobs-wrap {
+    margin: 0 20px;
+}
+.jobs__box {
+    margin: 5px 20px;
+}
+.text {
+    margin: 20px;
+}
+.result {
+    margin: 8px 0;
+    color: rgb(0, 39, 73);
+}
+.link {
+    margin: 30px;
+    color: rgb(41, 101, 153);
+}
+.calc {
+    display: grid;
+    grid-template-rows: repeat(10, max(1fr));
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.calc__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.calc__left {
+    border: 1px solid rgb(41, 101, 153);
+    padding: 5px;
+}
+.calc__right {
+    border: 1px solid rgb(41, 101, 153);
+    padding: 5px;
+}
+.warning {
+    color: red;
+}
+.sum {
+    background-color: rgb(214, 230, 244);
+    margin: 0;
+}
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #printarea,
+    #printarea * {
+        visibility: visible;
+    }
+    #printarea {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    h2 {
+        font-size: medium;
+        margin: 2.5px 0;
+    }
+    .result {
+        margin: 0px 0;
+        color: rgb(0, 39, 73);
+    }
+    .br {
+        margin-top: 50px;
+        font-size: larger;
+    }
+}

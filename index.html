@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="shortcut icon"
+            href="./assets/logo.png"
+            type="image/x-icon"
+        />
+        <title>
+            Подбор средств измерений, специалистов и технологических карт
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title-wrap">
+                <h1 class="title__text">
+                    Подбор средств измерений, специалистов и технологических
+                    карт
+                </h1>
+                <img class="title__logo" src="./assets/logo.png" alt="logo" />
+            </div>
+            <div class="jobs-wrap">
+                <h2 class="jobs__title subtitle">Выберите работы</h2>
+                <form name="jobsForm" class="jobs__form">
+                    <div class="jobs__box">
+                        <input
+                            name="zemlRaboty"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Земляные работы"
+                        />
+                        <span class="jobs__job">1 Земляные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="fund"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство оснований  фундаментов зданий и сооружений"
+                        />
+                        <span class="jobs__job"
+                            >2 Устройство оснований фундаментов зданий и
+                            сооружений
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="fundEstest"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство фундаментов на основаниях из естественных грунтов"
+                        />
+                        <span class="jobs__job"
+                            >3 Устройство фундаментов на основаниях из
+                            естественных грунтов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="fundIskust"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство искусственных оснований из насыпных,  намывных, закрепленных  грунтов, армированных оснований и сооружений из армированного грунта"
+                        />
+                        <span class="jobs__job"
+                            >4 Устройство искусственных оснований из насыпных,
+                            намывных, закрепленных грунтов, армированных
+                            оснований и сооружений из армированного грунта
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="fundSvai"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство свайных фундаментов"
+                        />
+                        <span class="jobs__job"
+                            >5 Устройство свайных фундаментов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="fundSpec"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство специальных видов фундаментов зданий и сооружений"
+                        />
+                        <span class="jobs__job"
+                            >6 Устройство специальных видов фундаментов зданий и
+                            сооружений
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="monoJB"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Возведение монолитных бетонных и железнобетонных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >7 Возведение монолитных бетонных и железнобетонных
+                            конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="sborJB"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж сборных бетонных и железобетонных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >8 Монтаж сборных бетонных и железобетонных
+                            конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="stalKonstr"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж стальных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >9 Монтаж стальных конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="kamen"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Возведение каменных и армокаменных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >10 Возведение каменных и армокаменных конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="derevo"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж деревянных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >11 Монтаж деревянных конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="legkieOgraj"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж легких ограждающих конструкций"
+                        />
+                        <span class="jobs__job"
+                            >12 Монтаж легких ограждающих конструкций
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="krovli"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство кровель"
+                        />
+                        <span class="jobs__job">13 Устройство кровель </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="isol"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство изоляционных покрытий"
+                        />
+                        <span class="jobs__job"
+                            >14 Устройство изоляционных покрытий
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="antikorr"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство антикоррозионных покрытий строительных конструкций зданий и сооружений"
+                        />
+                        <span class="jobs__job"
+                            >15 Устройство антикоррозионных покрытий
+                            строительных конструкций зданий и сооружений
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="teploisolZdaniya"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство тепловой изоляции наружных ограждающих конструкций зданий и сооружений"
+                        />
+                        <span class="jobs__job"
+                            >16 Устройство тепловой изоляции наружных
+                            ограждающих конструкций зданий и сооружений
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="teploisolTrub"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство тепловой изоляции оборудования и трубопроводов"
+                        />
+                        <span class="jobs__job"
+                            >17 Устройство тепловой изоляции оборудования и
+                            трубопроводов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="poly"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство полов"
+                        />
+                        <span class="jobs__job">18 Устройство полов </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="okna"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Заполнение оконных проемов"
+                        />
+                        <span class="jobs__job"
+                            >19 Заполнение оконных проемов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="dveri"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Заполнение дверных проемов"
+                        />
+                        <span class="jobs__job"
+                            >20 Заполнение дверных проемов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="stukatur"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Штукатурные работы"
+                        />
+                        <span class="jobs__job">21 Штукатурные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="oblicovka"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Облицовочные работы"
+                        />
+                        <span class="jobs__job">22 Облицовочные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="otdelka"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Декоративные отделочные работы"
+                        />
+                        <span class="jobs__job"
+                            >23 Декоративные отделочные работы
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="malyar"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Малярные работы"
+                        />
+                        <span class="jobs__job">24 Малярные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="oboi"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Обойные работы"
+                        />
+                        <span class="jobs__job">25 Обойные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="steklo"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Стекольные работы"
+                        />
+                        <span class="jobs__job">26 Стекольные работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="dorojki"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство дорожных одежд с покрытием из плит тротуарных"
+                        />
+                        <span class="jobs__job"
+                            >27 Устройство дорожных одежд с покрытием из плит
+                            тротуарных
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="asfalt"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Благоустройство территорий. Устройство асфальтобетонных покрытий"
+                        />
+                        <span class="jobs__job"
+                            >28 Благоустройство территорий. Устройство
+                            асфальтобетонных покрытий.</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="ozelenenie"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Благоустройство территорий. Озеленение"
+                        />
+                        <span class="jobs__job"
+                            >29 Благоустройство территорий. Озеленение.</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="ogrady"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Благоустройство территории. Ограды"
+                        />
+                        <span class="jobs__job"
+                            >30 Благоустройство территории. Ограды
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrVodosn"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: водоснабжение"
+                        />
+                        <span class="jobs__job"
+                            >31 Монтаж внутренних инженерных систем зданий и
+                            сооружений: водоснабжение
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrKan"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: канализация"
+                        />
+                        <span class="jobs__job"
+                            >32 Монтаж внутренних инженерных систем зданий и
+                            сооружений: канализация
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrVent"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: вентиляция и кондиционирование воздуха"
+                        />
+                        <span class="jobs__job"
+                            >33 Монтаж внутренних инженерных систем зданий и
+                            сооружений: вентиляция и кондиционирование воздуха
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrOtopl"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: отопление"
+                        />
+                        <span class="jobs__job"
+                            >34 Монтаж внутренних инженерных систем зданий и
+                            сооружений: отопление
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrTeplPunkt"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: тепловые пункты и котельные"
+                        />
+                        <span class="jobs__job"
+                            >35 Монтаж внутренних инженерных систем зданий и
+                            сооружений: тепловые пункты и котельные
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="priboryUcheta"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж приборов учёта тепла"
+                        />
+                        <span class="jobs__job"
+                            >36 Монтаж приборов учёта тепла
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrGas"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: газоснабжение"
+                        />
+                        <span class="jobs__job"
+                            >37 Монтаж внутренних инженерных систем зданий и
+                            сооружений: газоснабжение
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrElect"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: электромонтажные работы"
+                        />
+                        <span class="jobs__job"
+                            >38 Монтаж внутренних инженерных систем зданий и
+                            сооружений: электромонтажные работы
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrAvtomat"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: монтаж систем автоматизации"
+                        />
+                        <span class="jobs__job"
+                            >39 Монтаж внутренних инженерных систем зданий и
+                            сооружений: монтаж систем автоматизации
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="vnutrSvyazi"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж внутренних инженерных систем зданий и сооружений: устройство сетей связи и диспетчеризации"
+                        />
+                        <span class="jobs__job"
+                            >40 Монтаж внутренних инженерных систем зданий и
+                            сооружений: устройство сетей связи и диспетчеризации
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="ingLKSoor"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж инженерных сетей: линейно-кабельные сооружения электросвязи"
+                        />
+                        <span class="jobs__job"
+                            >41 Монтаж инженерных сетей: линейно-кабельные
+                            сооружения электросвязи
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="passivOpt"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж пассивных оптических сетей"
+                        />
+                        <span class="jobs__job"
+                            >42 Монтаж пассивных оптических сетей
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="narujKLElec"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж наружных сетей электроснабжения: кабельные линии электропередачи"
+                        />
+                        <span class="jobs__job"
+                            >43 Монтаж наружных сетей электроснабжения:
+                            кабельные линии электропередачи
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="narujVLElec"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж наружных сетей электроснабжения: воздушные линии электропередач"
+                        />
+                        <span class="jobs__job"
+                            >44 Монтаж наружных сетей электроснабжения:
+                            воздушные линии электропередач
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="paspredUstr"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж сетей электроснабжения: распределительные устройства и подстанции"
+                        />
+                        <span class="jobs__job"
+                            >45 Монтаж сетей электроснабжения: распределительные
+                            устройства и подстанции
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="narujBodKan"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж наружных инженерных сетей и сооружений: водоснабжение и канализация"
+                        />
+                        <span class="jobs__job"
+                            >46 Монтаж наружных инженерных сетей и сооружений:
+                            водоснабжение и канализация
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="narujTeplo"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж наружных инженерных сетей и сооружений: монтаж тепловых сетей"
+                        />
+                        <span class="jobs__job"
+                            >47 Монтаж наружных инженерных сетей и сооружений:
+                            монтаж тепловых сетей
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="narujGas"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж наружных инженерных сетей и сооружений: газоснабжение"
+                        />
+                        <span class="jobs__job"
+                            >48 Монтаж наружных инженерных сетей и сооружений:
+                            газоснабжение
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="melioratsia"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство мелиоративных систем и сооружений"
+                        />
+                        <span class="jobs__job"
+                            >49 Устройство мелиоративных систем и сооружений
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="avtodorogiAir"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство автомобильных дорог, улиц и дорог городов, поселков и сельских населенных пунктов, аэродромов"
+                        />
+                        <span class="jobs__job"
+                            >50 Устройство автомобильных дорог, улиц и дорог
+                            городов, поселков и сельских населенных пунктов,
+                            аэродромов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="elemDorogi"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Установка элементов обустройства дороги (дорожные знаки, дорожные ограждения 1-ой, группы, сигнальные столбики)"
+                        />
+                        <span class="jobs__job"
+                            >51 Установка элементов обустройства дороги
+                            (дорожные знаки, дорожные ограждения 1-ой, группы,
+                            сигнальные столбики)</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="dorojRazmetka"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Нанесение дорожной разметки"
+                        />
+                        <span class="jobs__job"
+                            >52 Нанесение дорожной разметки
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="most"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство мостов и труб"
+                        />
+                        <span class="jobs__job"
+                            >53 Устройство мостов и труб
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="geodezia"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Геодезические работы"
+                        />
+                        <span class="jobs__job">54 Геодезические работы </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="techTruby"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж технологического оборудования и трубопроводов"
+                        />
+                        <span class="jobs__job"
+                            >55 Монтаж технологического оборудования и
+                            трубопроводов
+                        </span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="holodsnab"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Монтаж систем холодоснабжения"
+                        />
+                        <span class="jobs__job"
+                            >56 Монтаж систем холодоснабжения</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="svarka"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Сварочные работы"
+                        />
+                        <span class="jobs__job">57 Сварочные работы</span>
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="jd"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Устройство железных дорог колеи 1520 мм"
+                        />
+                        <span class="jobs__job"
+                            >58 Устройство железных дорог колеи 1520 мм</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="proizBlokiOknaDveri"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Блоки оконные и дверные"
+                        />
+                        <span class="jobs__job"
+                            >59 Блоки оконные и дверные</span
+                        >
+                    </div>
+                    <div class="jobs__box">
+                        <input
+                            name="proizKonstrStal"
+                            class="jobs__check"
+                            type="checkbox"
+                            value="Конструкции стальные строительные, лестничные марши, площадки и ограждения стальные, изделия арматурные сварные для железобетонных конструкций"
+                        />
+                        <span class="jobs__job"
+                            >60 Конструкции стальные строительные, лестничные
+                            марши, площадки и ограждения стальные, изделия
+                            арматурные сварные для железобетонных
+                            конструкций</span
+                        >
+                    </div>
+
+                    <button class="submit" type="submit">Вывести список</button>
+                </form>
+            </div>
+            <div class="print" id="printarea">
+                <div class="answers-wrap">
+                    <h2 class="answers__title">Работы</h2>
+                    <ol class="aswers__text jobs__selected text"></ol>
+                    <h2 class="answers__title">Средства измерений</h2>
+                    <ol class="aswers__text measurments text"></ol>
+                    <h2 class="answers__title">
+                        Квалификационные аттестаты сотрудников (при оценке
+                        тех.компетентности, сертификации) (минимум 2 чел.)
+                    </h2>
+                    <div class="aswers__text personal__itr-spk-sert text"></div>
+                    <h2 class="answers__title">
+                        Квалификационные аттестаты сотрудников при аттестации
+                        (основное место работы по трудовой книжке!)
+                    </h2>
+                    <p class="aswers__text personal__GI text">
+                        главный инженер (общестроительные работы)* **
+                    </p>
+                    <div class="aswers__text personal__itr-att text"></div>
+                    <p class="text">
+                        *отдельный сотрудник (иные квалификационные аттестаты не
+                        учтут при аттестации ЮЛ)
+                    </p>
+                    <p class="text">
+                        **если у руководителя или его заместителя нет: <br />-
+                        высшего образования в строительстве <br />- стажа 5 лет
+                        в области строительства,<br />
+                        необходимо принять/перевести на должность
+                        <b>"заместитель директора - главный инженер"</b>
+                    </p>
+                    <h2 class="answers__title">
+                        Рабочие (при сертификации/освидетельствовании СПК)
+                    </h2>
+                    <div class="aswers__text personal__workers text"></div>
+                    <h2 class="answers__title">
+                        Обязательные технологические карты
+                    </h2>
+                    <div class="aswers__text tehkartaby-main text"></div>
+                    <a
+                        href="https://tehkarta.by/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="link"
+                        >Все технологические карты приобретаются в Фонде ТТК,
+                        утвержденном согласно Постановлению Министерства
+                        архитектуры и строительства №70 от 31 июня 2023 г.</a
+                    >
+                </div>
+                <div class="calc-wrap">
+                    <h2 class="calc__title br">
+                        Примерный расчет стоимости проведения процедур, рубли
+                    </h2>
+                    <h2 class="calc__warning warning">
+                        ВСЕ РАСЧЕТЫ являются ОРИЕНТИРОВОЧНЫМИ!!!
+                    </h2>
+                    <div class="calc">
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Стоимость услуг по консультации, подготовке к
+                                процедурам (общая)
+                            </div>
+                            <div
+                                class="calc__right"
+                                id="consultationCost"
+                            ></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Подключение к
+                                <a
+                                    href="https://stn.by/info/stroydoc_online/shop"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >ИПС "Стродокумент" (мин. срок 3 мес.)</a
+                                >
+                            </div>
+                            <div class="calc__right" id="ipsprice"></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Заказ
+                                <a
+                                    href="https://tehkarta.by/index_ips.php?v=20240320"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >технологических карт</a
+                                >
+                            </div>
+                            <div class="calc__right" id="tehkartaCalc"></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Покупка средств измерений
+                            </div>
+                            <div class="calc__right" id="instruments"></div>
+                        </div>
+                        <h4 class="calc__mintitle">Пошлины</h4>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Освидетельствование СПК
+                            </div>
+                            <div class="calc__right" id="spkCalc"></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">Сертификация работ</div>
+                            <div class="calc__right" id="sertCalc"></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left" id="attPhrase"></div>
+                            <div class="calc__right" id="attCalc"></div>
+                        </div>
+                        <h4 class="calc__mintitle">ИТОГО</h4>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                ИТОГО (за все процедуры)
+                            </div>
+                            <div class="calc__right" id="total">0</div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                Отдельно освидетельствование СПК
+                            </div>
+                            <div class="calc__right" id="totalCompetence">
+                                0
+                            </div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                Отдельно сертификация работ
+                            </div>
+                            <div class="calc__right" id="totalSertification">
+                                0
+                            </div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">Отдельно аттестация ЮЛ</div>
+                            <div class="calc__right" id="totalAttestation">
+                                0
+                            </div>
+                        </div>
+                        <div class="calc__mintitle">
+                            Персонал (оказывается сторонними организациями)
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Стоимость услуг поиска 1 чел.
+                            </div>
+                            <div
+                                class="calc__right"
+                                id="calcPersonalServ"
+                            ></div>
+                        </div>
+                        <div class="calc__box">
+                            <div class="calc__left">
+                                Персонал без учета совмещений кв.аттестатов/1
+                                мес.(c учетом услуг поиска)
+                            </div>
+                            <div class="calc__right" id="calcPersonal"></div>
+                        </div>
+                        <h4 class="calc__mintitle">
+                            ИТОГО с персоналом (макс.)
+                        </h4>
+                        <div class="calc__box sum">
+                            <div class="calc__left">ИТОГО с персоналом</div>
+                            <div class="calc__right" id="totalPers">0</div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                При освидетельствовании СПК/1 мес.(c учетом
+                                услуг поиска)
+                            </div>
+                            <div class="calc__right" id="calcPersonalSpk"></div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                При сертификации работ/1 мес.(c учетом услуг
+                                поиска)
+                            </div>
+                            <div
+                                class="calc__right"
+                                id="calcPersonalSert"
+                            ></div>
+                        </div>
+                        <div class="calc__box sum">
+                            <div class="calc__left">
+                                При аттестации/1 мес.(c учетом услуг поиска)
+                            </div>
+                            <div class="calc__right" id="calcPersonalAtt"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="docs-wrap">
+                    <h2 class="docs__title br">Документальная информация</h2>
+                    <h2 class="docs__warning warning">
+                        Все документы предоставляются в КАЧЕСТВЕННЫХ копиях или
+                        скан-копиях (не фото), печатями не заверяются!!!
+                    </h2>
+                    <h4 class="docs__mintitle mintitle">
+                        К подготовке к освидетельствованию СПК
+                    </h4>
+                    <ol>
+                        <li>Актуальные реквизиты</li>
+                        <li>
+                            Копия свидетельства о государственной регистрации
+                            юридического лица
+                        </li>
+                        <li>Копия устава предприятия (1-3 стр.)</li>
+                        <li>
+                            Копия договора аренды офисного помещения (паспорта
+                            на здание)
+                        </li>
+                        <li>Копия штатного расписания</li>
+                        <li>
+                            <span>Руководитель организации:</span>
+                            <ul>
+                                <li>Копии дипломов</li>
+                                <li>
+                                    Копия трудовой книжки руководителя
+                                    организации (в случае не основного места
+                                    работы, копия договора или контракта)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>ИТР:</span>
+                            <ul>
+                                <li>Копии квалификационных аттестатов</li>
+                                <li>Копии дипломов</li>
+                                <li>
+                                    Копии трудовых (первая страница и страница с
+                                    записью о трудоустройстве)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span
+                                >Средства измерений —
+                                <i>если нет, поможем оформить</i></span
+                            >
+                            <ul>
+                                <li>Копия накладной на приобретение</li>
+                                <li>
+                                    Копии документов о поверке (паспорта,
+                                    свидетельства)
+                                </li>
+                                <li>
+                                    Копии договоров аренды (при наличии
+                                    арендованных средств измерений)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span
+                                >Технологические карты —
+                                <i>если нет, поможем оформить</i></span
+                            >
+                            <ul>
+                                <li>Копия накладной на приобретение</li>
+                                <li>
+                                    Qr-коды на действующие техкарты или копия
+                                    счета на технологические карты из
+                                    <a
+                                        href="https://tehkarta.by/index_ips.php?v=20240320"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Фонд ТТК</a
+                                    >
+                                    и платежное поручение по нему/уведомление о
+                                    доступе к электронным техкартам
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Копия уведомления на приобретение доступа к ИПС
+                            «Стройдокумент» онлайн —
+                            <i>если нет, поможем оформить</i>
+                        </li>
+                        <li>
+                            Копии свидетельства о технической компетентности СПК
+                            (при расширении свидетельства или получении нового)
+                        </li>
+                    </ol>
+                    <h4 class="docs__mintitle mintitle">
+                        К подготовке к сертификации работ (к списку выше
+                        добавляются)
+                    </h4>
+                    <ol>
+                        <li>
+                            <span>Рабочие:</span>
+                            <ul>
+                                <li>Копии трудовой книжки/договора подряда</li>
+                                <li>
+                                    Сведения об образовании в данной
+                                    профессии/опыте работы
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Удостоверения по охране труда (3 шт., у руководителя
+                            обязательно)
+                        </li>
+                        <li>
+                            Копия книги замечаний и предложений — копии
+                            титульных и первых разворотов (последних записей,
+                            если есть)
+                        </li>
+                        <li>
+                            Копия книги учета проверок — копии титульных и
+                            первых разворотов (последних записей, если есть)
+                        </li>
+                    </ol>
+                    <h4 class="docs__mintitle mintitle">
+                        К подготовке к аттестации ЮЛ
+                    </h4>
+                    <ol>
+                        <li>Актуальные реквизиты</li>
+                        <li>Копия штатного расписания</li>
+                        <li>
+                            <span>Руководитель организации:</span>
+                            <ul>
+                                <li>Копии дипломов</li>
+                                <li>
+                                    Копия трудовой книжки руководителя
+                                    организации (в случае не основного места
+                                    работы, копия договора или контракта)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>ИТР:</span>
+                            <ul>
+                                <li>Копии квалификационных аттестатов</li>
+                                <li>Копии дипломов</li>
+                                <li>
+                                    Копии трудовых (полная трудовая, включая
+                                    вкладыш)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Копия приказа о приеме главного бухгалтера/договора
+                            оказания бухгалтерских услуг
+                        </li>
+                        <li>
+                            Справка о наличии основных производственных фондов
+                            (например, машины, экскаваторы, офисы, инструмент
+                            для работы, оборудование, компьютеры, ноутбуки,
+                            принтеры, программное обеспечение и т.д.) – в
+                            электронном виде (Word, Exel) с указанием стоимости
+                            и года введения в эксплуатацию
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <script src="./jscript.js"></script>
+    </body>
+</html>

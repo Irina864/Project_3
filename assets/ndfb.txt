@@ -1,0 +1,68 @@
+isolJob
+antikorrJob
+dorojkiJob
+oknaDveriJob
+narujVodKanJob
+
+
+
+const fundJob ,monoJBJob ,sborJBJob ,stalKonstrJob , kamenJob , derevoJob ,legkieJob ,krovliJob ,isolJob ,antikorrJob ,teploIsoZdaniyalJob ,teploIsoTrubylJob ,polyJob,oknaDveriJob ,dorojkiJob , ozelenenieJob ,asfaltJob,ogradyJob , vnutrVodKanJob , vnutrBentJob ,vnutrElectJob , avtomatJob , svyaziElectJob ,linKabElectJob, passiveElectJob , narujElectKabJob , narujElectVozdJob , narujElectRaspredPodstanJob , gasVnutrJob,gasNarujJob ,narujVodKanJob ,narujTeploJob , gidroMelioJob , dorogiAvtoAiroMostJob , dorogiElemJob , razmetkaJob , geodesiaJob , technolTrubyJob , svarkaJob , holodJob, jdJob , otdelkaJob , stekloJob , proizBlokiOknaDveriJob , proizKonstrStalJob 
+
+
+
+['линейка', 'рулетка', 'плотномер динамический', 'теодолит', 'нивелир', 'рейка нивелирная', 'уровень', 'рейка контрольная 2м', 'штангенциркуль', 'термометр -35С до +50С', 'гигрометр психрометрический', 'набор щупов', 'отвес строительный', 'ключ динамометрический', 'термометр 0С до +200С', 'влагомер', 'адгезиметр-решетка', 'клин для контроля зазоров', 'лупа измерительная марки ЛИ-3-10х', 'толщиномер (гребенка) Г3', 'толщиномер ЛКП', 'дефектоскоп', 'микрометр', 'вискозиметр', 'угольник поверочный', 'рейка контрольная 3м', 'манометр 2шт.', 'секундомер', 'анемометр', 'мультиметр', 'УШС', 'путевой шаблон', 'призмы опорные', ' ']
+
+lineika,ruletka,plotnomer,teodolit,nivelir,reikaNivelir,uroven,reikaTwo,shtangen,termMin,gigrometr,shyp,otves,kluch,termMax,vlagomer,adgezimetr,klin,lupa,tolschinomerG,tolschinomerLKP,defektoskop,micrometr,viskozimetr,ugolnik,reikaThree,manometr,secundomer,anemometr,multimetr,ushs,puyevoi,pusto
+
+// средства измерений
+    let measurments = [];
+    checkedJobs.forEach((job) => {
+        measurments.push(job.SI);
+    })
+    // console.log(measurments);
+    let measurmentsMain = measurments.flat(1);
+    // console.log(measurmentsMain);
+    let resultMeasurments = [...new Set(measurmentsMain)];
+    // console.log(resultMeasurments);
+    resultMeasurments.forEach((measurment) => {
+        let itemSI = document.createElement('div');
+        itemSI.classList.add('result');
+        itemSI.textContent = measurment;
+        document.querySelector('.measurments').append(itemSI);
+    })
+
+
+costConsultations
+allCostTehCompetence
+allCostSertification
+allCostAttestation
+allTehKartsCost
+allCostInstruments
+systemAccess
+priceConsultationCompetence
+priceConsultationSertification
+priceConsultationAttestation
+
+const systemAccess = 195;
+document.getElementById('ipsprice').innerText = systemAccess;
+const personalSearching = 360;
+document.getElementById('calcPersonalUsl').innerText = '~ ' + personalSearching;
+const mediumSalary = 800;
+const costOneJobTehCompetence = 30;
+const costTehCompetence = 455;
+const costOneJobSertification = 120;
+const costSertification = 500;
+const costAttestation = 555;
+document.getElementById(
+    'attPhrase'
+).innerText = `Аттестация ЮЛ (${costAttestation},00 р/1 аттестат)`;
+const costConsultationTehCompetence = 550;
+const costConsultationSertification = 450;
+const costConsultationAttestation = 550;
+const saleConsultation = 100;
+const tehkartaAntikorr = 400;
+const tehkartaIsol = 100;
+const tehkartaNarViK = 170;
+const tehkartaOknaDveri = 160;
+const tehkartaDorojki = 170;
+const tehkartaMedium = 200;
